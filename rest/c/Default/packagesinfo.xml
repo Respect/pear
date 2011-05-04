@@ -72,5 +72,29 @@
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
 
+    </pi>    <pi>
+        <p>
+            <n>Validation</n>
+            <c>respect.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>The most awesome validation engine ever created for PHP</s>
+            <d>The most awesome validation engine ever created for PHP</d>
+            <r xlink:href="/rest/r/validation" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
     </pi>
 </f>

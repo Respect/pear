@@ -3,5 +3,6 @@
   <p xlink:href="/rest/p/config">Config</p>
   <p xlink:href="/rest/p/relational">Relational</p>
   <p xlink:href="/rest/p/rest">Rest</p>
+  <p xlink:href="/rest/p/validation">Validation</p>
 
 </l>

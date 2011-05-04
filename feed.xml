@@ -39,5 +39,16 @@
         <content>
             Thin controller for RESTful applications
         </content>
+    </entry>    <entry>
+        <title>Validation 0.2.1 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Validation-0.2.1.tgz" />
+        <id>Validation-0.2.1</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-05-04T12:07:23-03:00</updated>
+        <content>
+            The most awesome validation engine ever created for PHP
+        </content>
     </entry>
 </feed>
