@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>respect.github.com/pear</name>
+  <summary>Respect PEAR Channel Server</summary>
+  <alias>respect</alias>
+  <url>http://respect.github.com/pear</url>
+</server>
