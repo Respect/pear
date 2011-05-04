@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Rest</name>
+ <channel>respect.github.com/pear</channel>
+ <summary>Thin controller for RESTful applications</summary>
+ <description>Thin controller for RESTful applications</description>
+ <lead>
+  <name>Alexandre Gomes Gaigalas</name>
+  <user>alganet</user>
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-05-04</date>
+ <time>12:00:44</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+CAUTION: not ready for production
+ </notes>
+ <contents>
+  <dir baseinstalldir="Respect/Rest" name="/">
+   <file baseinstalldir="Respect/Rest" md5sum="37808339e00a8a4067d8d69080ed72c1" name="Routes/AbstractRoute.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="2862ee2e55067e16ed860249b1039b3b" name="Routes/Callback.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="65913d0a9319f90f7a74a07c6a23f3e7" name="Routes/ClassName.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="01ee329ca45ae18b9757c6a9375390e5" name="Routes/Instance.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="c90ecf8f8ca4553900a36efc8622bfc3" name="Routines/AbstractRoutine.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="568f80c345385217e2e1c2ee49d61d53" name="Routines/By.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="1fc8d68bbd53037a27b3bdad430d93bc" name="Routines/Through.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="6a5971143ce3c6c7b54653bf1ed28f62" name="Routines/When.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="24aeb2991b98ea0a4c5daa0786e90c13" name="Routable.php" role="php" />
+   <file baseinstalldir="Respect/Rest" md5sum="79529386fb871fbbe7a76f8d056e5d99" name="Router.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-05-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <notes>
+CAUTION: not ready for production
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -24,5 +24,29 @@
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
 
+    </pi>    <pi>
+        <p>
+            <n>Rest</n>
+            <c>respect.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>Thin controller for RESTful applications</s>
+            <d>Thin controller for RESTful applications</d>
+            <r xlink:href="/rest/r/rest" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
     </pi>
 </f>

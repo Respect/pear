@@ -17,5 +17,16 @@
         <content>
             A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.
         </content>
+    </entry>    <entry>
+        <title>Rest 0.1.1 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Rest-0.1.1.tgz" />
+        <id>Rest-0.1.1</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-05-04T12:00:44-03:00</updated>
+        <content>
+            Thin controller for RESTful applications
+        </content>
     </entry>
 </feed>
