@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/config">Config</p>
+    <c>respect.github.com/pear</c>
+    <v>0.2.1</v>
+    <a>0.2.1</a>
+    <mp>5.3</mp>
+    <st>alpha</st>
+    <l>BSD Style</l>
+    <m>alganet</m>
+    <s>A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.</s>
+    <d>A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.</d>
+    <da>2011-05-04 11:34:50</da>
+    <n>
+CAUTION: not ready for production
+ </n>
+    <f>3857</f>
+    <g>http://respect.github.com/pear/get/Config-0.2.1</g>
+    <x xlink:href="package.0.2.1.xml"/>
+</r>

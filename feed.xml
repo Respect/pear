@@ -6,5 +6,16 @@
         <name>http://respect.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>Config 0.2.1 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Config-0.2.1.tgz" />
+        <id>Config-0.2.1</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-05-04T11:34:50-03:00</updated>
+        <content>
+            A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.
+        </content>
+    </entry>
 </feed>
