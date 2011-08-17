@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://respect.github.com/pear">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://respect.github.com/pear</id>
+    <updated>2011-08-17T17:46:30-03:00</updated>
     <title>Respect PEAR Channel Server Latest Releases</title>
-    <link href="http://respect.github.com/pear" />
+    <link href="http://respect.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://respect.github.com/pear</name>
     </author>
@@ -9,7 +11,7 @@
     <entry>
         <title>Config 0.2.1 (alpha)</title>
         <link href="http://respect.github.com/pear/get/Config-0.2.1.tgz" />
-        <id>Config-0.2.1</id>
+        <id>http://respect.github.com/pear/get/Config-0.2.1.tgz</id>
         <author>
             <name>alganet</name>
         </author>
@@ -18,9 +20,31 @@
             A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.
         </content>
     </entry>    <entry>
+        <title>Loader 0.1.1 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Loader-0.1.1.tgz" />
+        <id>http://respect.github.com/pear/get/Loader-0.1.1.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-08-17T20:40:49-03:00</updated>
+        <content>
+            Hello. I love to load things.
+        </content>
+    </entry>    <entry>
+        <title>Relational 0.1.2 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Relational-0.1.2.tgz" />
+        <id>http://respect.github.com/pear/get/Relational-0.1.2.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-08-17T20:38:11-03:00</updated>
+        <content>
+            Fluent ORM
+        </content>
+    </entry>    <entry>
         <title>Relational 0.1.1 (alpha)</title>
         <link href="http://respect.github.com/pear/get/Relational-0.1.1.tgz" />
-        <id>Relational-0.1.1</id>
+        <id>http://respect.github.com/pear/get/Relational-0.1.1.tgz</id>
         <author>
             <name>alganet</name>
         </author>
@@ -29,9 +53,20 @@
             Fluent ORM
         </content>
     </entry>    <entry>
+        <title>Rest 0.1.2 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Rest-0.1.2.tgz" />
+        <id>http://respect.github.com/pear/get/Rest-0.1.2.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-08-17T20:34:46-03:00</updated>
+        <content>
+            Thin controller for RESTful applications
+        </content>
+    </entry>    <entry>
         <title>Rest 0.1.1 (alpha)</title>
         <link href="http://respect.github.com/pear/get/Rest-0.1.1.tgz" />
-        <id>Rest-0.1.1</id>
+        <id>http://respect.github.com/pear/get/Rest-0.1.1.tgz</id>
         <author>
             <name>alganet</name>
         </author>
@@ -40,9 +75,20 @@
             Thin controller for RESTful applications
         </content>
     </entry>    <entry>
+        <title>Validation 0.2.2 (alpha)</title>
+        <link href="http://respect.github.com/pear/get/Validation-0.2.2.tgz" />
+        <id>http://respect.github.com/pear/get/Validation-0.2.2.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-08-17T20:39:01-03:00</updated>
+        <content>
+            The most awesome validation engine ever created for PHP
+        </content>
+    </entry>    <entry>
         <title>Validation 0.2.1 (alpha)</title>
         <link href="http://respect.github.com/pear/get/Validation-0.2.1.tgz" />
-        <id>Validation-0.2.1</id>
+        <id>http://respect.github.com/pear/get/Validation-0.2.1.tgz</id>
         <author>
             <name>alganet</name>
         </author>

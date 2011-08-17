@@ -3,6 +3,10 @@
     <p>Relational</p>
     <c>respect.github.com/pear</c>
     <r>
+        <v>0.1.2</v>
+        <s>alpha</s>
+    </r>
+    <r>
         <v>0.1.1</v>
         <s>alpha</s>
     </r>

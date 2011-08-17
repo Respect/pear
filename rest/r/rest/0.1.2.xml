@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/rest">Rest</p>
+    <c>respect.github.com/pear</c>
+    <v>0.1.2</v>
+    <st>alpha</st>
+    <l>BSD Style</l>
+    <m>alganet</m>
+    <s>Thin controller for RESTful applications</s>
+    <d>Thin controller for RESTful applications</d>
+    <da>2011-08-17 20:34:46</da>
+    <n>
+Thin controller for RESTful applications
+ </n>
+    <f>8218</f>
+    <g>http://respect.github.com/pear/get/Rest-0.1.2</g>
+    <x xlink:href="package.0.1.2.xml"/>
+</r>
