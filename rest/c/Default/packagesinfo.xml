@@ -2,56 +2,8 @@
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
     <pi>
         <p>
-            <n>Config</n>
-            <c>respect.github.com/pear</c>
-            <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>BSD Style</l>
-            <s>A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.</s>
-            <d>A powerful, small, deadly simple configurator and dependency injection container made to be easy. PHP 5.3 only.</d>
-            <r xlink:href="/rest/r/config" />
-        </p>
-
-        <a>
-            <r>
-                <v>0.2.1</v>
-                <s>alpha</s>
-            </r>
-
-        </a>
-
-        <deps>
-            <v>0.2.1</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-
-    </pi>    <pi>
-        <p>
-            <n>Loader</n>
-            <c>respect.github.com/pear</c>
-            <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>BSD Style</l>
-            <s>Hello. I love to load things.</s>
-            <d>Hello. I love to load things.</d>
-            <r xlink:href="/rest/r/loader" />
-        </p>
-
-        <a>
-            <r>
-                <v>0.1.1</v>
-                <s>alpha</s>
-            </r>
-
-        </a>
-
-        <deps>
-            <v>0.1.1</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-
-    </pi>    <pi>
-        <p>
             <n>Relational</n>
-            <c>respect.github.com/pear</c>
+            <c>respect.li/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>BSD Style</l>
             <s>Fluent Database Toolkit</s>
@@ -64,99 +16,11 @@
                 <v>0.2.2</v>
                 <s>alpha</s>
             </r>
-            <r>
-                <v>0.1.2</v>
-                <s>alpha</s>
-            </r>
-            <r>
-                <v>0.1.1</v>
-                <s>alpha</s>
-            </r>
 
         </a>
 
         <deps>
             <v>0.2.2</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-        <deps>
-            <v>0.1.2</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-        <deps>
-            <v>0.1.1</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-
-    </pi>    <pi>
-        <p>
-            <n>Rest</n>
-            <c>respect.github.com/pear</c>
-            <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>BSD Style</l>
-            <s>Thin controller for RESTful applications</s>
-            <d>Thin controller for RESTful applications</d>
-            <r xlink:href="/rest/r/rest" />
-        </p>
-
-        <a>
-            <r>
-                <v>0.1.3</v>
-                <s>alpha</s>
-            </r>
-            <r>
-                <v>0.1.2</v>
-                <s>alpha</s>
-            </r>
-            <r>
-                <v>0.1.1</v>
-                <s>alpha</s>
-            </r>
-
-        </a>
-
-        <deps>
-            <v>0.1.3</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-        <deps>
-            <v>0.1.2</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-        <deps>
-            <v>0.1.1</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-
-    </pi>    <pi>
-        <p>
-            <n>Validation</n>
-            <c>respect.github.com/pear</c>
-            <ca xlink:href="/rest/c/Default">Default</ca>
-            <l>BSD Style</l>
-            <s>The most awesome validation engine ever created for PHP</s>
-            <d>The most awesome validation engine ever created for PHP</d>
-            <r xlink:href="/rest/r/validation" />
-        </p>
-
-        <a>
-            <r>
-                <v>0.2.2</v>
-                <s>alpha</s>
-            </r>
-            <r>
-                <v>0.2.1</v>
-                <s>alpha</s>
-            </r>
-
-        </a>
-
-        <deps>
-            <v>0.2.2</v>
-            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
-        </deps>
-        <deps>
-            <v>0.2.1</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
         </deps>
 

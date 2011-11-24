@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
  <name>Relational</name>
- <channel>respect.github.com/pear</channel>
+ <channel>respect.li/pear</channel>
  <summary>Fluent Database Toolkit</summary>
  <description>Fluent Database Toolkit</description>
  <lead>
@@ -11,7 +11,7 @@
   <active>yes</active>
  </lead>
  <date>2011-11-24</date>
- <time>21:07:37</time>
+ <time>21:32:23</time>
  <version>
   <release>0.2.2</release>
   <api>0.2.2</api>

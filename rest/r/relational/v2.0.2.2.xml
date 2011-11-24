@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/relational">Relational</p>
-    <c>respect.github.com/pear</c>
+    <c>respect.li/pear</c>
     <v>0.2.2</v>
     <a>0.2.2</a>
     <mp>5.3</mp>
@@ -10,11 +10,11 @@
     <m>alganet</m>
     <s>Fluent Database Toolkit</s>
     <d>Fluent Database Toolkit</d>
-    <da>2011-11-24 21:07:37</da>
+    <da>2011-11-24 21:32:23</da>
     <n>
 -
  </n>
-    <f>6033</f>
-    <g>http://respect.github.com/pear/get/Relational-0.2.2</g>
+    <f>6024</f>
+    <g>http://respect.li/pear/get/Relational-0.2.2</g>
     <x xlink:href="package.0.2.2.xml"/>
 </r>
