@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://respect.li/pear</id>
-    <updated>2011-11-24T19:41:58-02:00</updated>
+    <updated>2011-11-24T19:42:10-02:00</updated>
     <title>Respect PEAR Channel Server Latest Releases</title>
     <link href="http://respect.li/pear/feed.xml" rel="self" />
     <author>
@@ -16,6 +16,19 @@
             <name>alganet</name>
         </author>
         <updated>2011-11-24T21:32:23-02:00</updated>
+        <content>
+            
+-
+ 
+        </content>
+    </entry>    <entry>
+        <title>Validation 0.3.2 (alpha)</title>
+        <link href="http://respect.li/pear/get/Validation-0.3.2.tgz" />
+        <id>http://respect.li/pear/get/Validation-0.3.2.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-11-24T21:39:34-02:00</updated>
         <content>
             
 -
