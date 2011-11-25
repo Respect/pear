@@ -109,12 +109,20 @@
 
         <a>
             <r>
+                <v>0.3.3</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.3.2</v>
                 <s>alpha</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>0.3.3</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:4:{i:0;a:2:{s:4:"name";s:9:"Validator";s:7:"channel";s:16:"pear.symfony.com";}i:1;a:2:{s:4:"name";s:14:"Zend_Validator";s:7:"channel";s:26:"packages.zendframework.com";}i:2;a:2:{s:4:"name";s:11:"Zend_Filter";s:7:"channel";s:26:"packages.zendframework.com";}i:3;a:2:{s:4:"name";s:13:"Zend_Registry";s:7:"channel";s:26:"packages.zendframework.com";}}}}</d>
+        </deps>
         <deps>
             <v>0.3.2</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
