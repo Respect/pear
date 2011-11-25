@@ -2,6 +2,30 @@
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
     <pi>
         <p>
+            <n>Config</n>
+            <c>respect.li/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>A powerful, small, deadly simple configurator and dependency injection container made to be easy.</s>
+            <d>A powerful, small, deadly simple configurator and dependency injection container made to be easy.</d>
+            <r xlink:href="/rest/r/config" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.2.2</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.2.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>Relational</n>
             <c>respect.li/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
