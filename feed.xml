@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://respect.li/pear</id>
-    <updated>2011-11-25T17:09:17-02:00</updated>
+    <updated>2011-11-25T18:29:21-02:00</updated>
     <title>Respect PEAR Channel Server Latest Releases</title>
     <link href="http://respect.li/pear/feed.xml" rel="self" />
     <author>
@@ -19,6 +19,19 @@
         <content>
             
 -
+ 
+        </content>
+    </entry>    <entry>
+        <title>Rest 0.2.0 (alpha)</title>
+        <link href="http://respect.li/pear/get/Rest-0.2.0.tgz" />
+        <id>http://respect.li/pear/get/Rest-0.2.0.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-11-25T20:28:34-02:00</updated>
+        <content>
+            
+Thin controller for RESTful applications
  
         </content>
     </entry>    <entry>
