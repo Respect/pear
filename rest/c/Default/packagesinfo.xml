@@ -26,6 +26,30 @@
 
     </pi>    <pi>
         <p>
+            <n>Loader</n>
+            <c>respect.li/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>Hello. I love to load things.</s>
+            <d>Hello. I love to load things.</d>
+            <r xlink:href="/rest/r/loader" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.2</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.2</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>Relational</n>
             <c>respect.li/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
