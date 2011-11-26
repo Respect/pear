@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/data">Data</p>
+    <c>respect.li/pear</c>
+    <v>0.1.1</v>
+    <a>0.1.1</a>
+    <mp>5.3</mp>
+    <st>alpha</st>
+    <l>BSD Style</l>
+    <m>alganet</m>
+    <s>Persistence simplified</s>
+    <d>Persistence simplified</d>
+    <da>2011-11-26 16:46:15</da>
+    <n>
+-
+ </n>
+    <f>2253</f>
+    <g>http://respect.li/pear/get/Data-0.1.1</g>
+    <x xlink:href="package.0.1.1.xml"/>
+</r>

@@ -26,6 +26,30 @@
 
     </pi>    <pi>
         <p>
+            <n>Data</n>
+            <c>respect.li/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>Persistence simplified</s>
+            <d>Persistence simplified</d>
+            <r xlink:href="/rest/r/data" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.1</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.1</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>Loader</n>
             <c>respect.li/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
