@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://respect.li/pear</id>
-    <updated>2011-11-26T15:59:59-02:00</updated>
+    <updated>2011-11-26T16:59:12-02:00</updated>
     <title>Respect PEAR Channel Server Latest Releases</title>
     <link href="http://respect.li/pear/feed.xml" rel="self" />
     <author>
@@ -97,6 +97,19 @@ Hello. I love to load things.
         <content>
             
 Thin controller for RESTful applications
+ 
+        </content>
+    </entry>    <entry>
+        <title>Validation 0.3.4 (alpha)</title>
+        <link href="http://respect.li/pear/get/Validation-0.3.4.tgz" />
+        <id>http://respect.li/pear/get/Validation-0.3.4.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2011-11-26T18:58:47-02:00</updated>
+        <content>
+            
+-
  
         </content>
     </entry>    <entry>
