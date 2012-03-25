@@ -82,6 +82,30 @@
 
     </pi>    <pi>
         <p>
+            <n>Doc</n>
+            <c>respect.li/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>BSD Style</l>
+            <s>Documentation for under engineered codes (in PHP).</s>
+            <d>Documentation for under engineered codes (in PHP).</d>
+            <r xlink:href="/rest/r/doc" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{s:4:"name";s:7:"PHPUnit";s:7:"channel";s:22:"http://pear.phpunit.de";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>Loader</n>
             <c>respect.li/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
