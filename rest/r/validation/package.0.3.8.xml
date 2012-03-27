@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Validation</name>
+ <channel>respect.li/pear</channel>
+ <summary>The most awesome validation engine ever created for PHP</summary>
+ <description>The most awesome validation engine ever created for PHP</description>
+ <lead>
+  <name>Alexandre Gomes Gaigalas</name>
+  <user>alganet</user>
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-03-27</date>
+ <time>02:55:26</time>
+ <version>
+  <release>0.3.8</release>
+  <api>0.3.8</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="Respect/Validation" name="library/Respect/Validation">
+   <file baseinstalldir="Respect/Validation" md5sum="9e9b17148a1f18f3e14f1dc4e6390162" name="library/Respect/Validation/ExceptionIterator.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="25945f306282d96e97876f73dca26f16" name="library/Respect/Validation/Exceptions/AbstractGroupedException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="80077b263213fc382830a7377fb5d70a" name="library/Respect/Validation/Exceptions/AbstractNestedException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7c07eafe3c849423d5be1b0357b27b19" name="library/Respect/Validation/Exceptions/AllOfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="46df549b92b480b0b79fd3ac0779b1e4" name="library/Respect/Validation/Exceptions/AlnumException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="33503ed77beaeacbdc7803c1977b0448" name="library/Respect/Validation/Exceptions/AlphaException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b90a3c2a42d128d67cdbb58eeb5e98c5" name="library/Respect/Validation/Exceptions/ArrException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4aaae659e30d528568b56c6364ba8c3a" name="library/Respect/Validation/Exceptions/AtLeastException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="9de9e905e10e15b8fafac60b094529bb" name="library/Respect/Validation/Exceptions/AttributeException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="9b1fb5f1a19aa61d0ea3f0a7a8ac8d1f" name="library/Respect/Validation/Exceptions/BetweenException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="2b952853d48366caae752b46e677d82e" name="library/Respect/Validation/Exceptions/BoolException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="baf5b775210081e3286b9ca2cb20b76c" name="library/Respect/Validation/Exceptions/CallbackException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="736ea791281a1b41d4ee85d672805062" name="library/Respect/Validation/Exceptions/CallException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="bd3bc3295bef5bcc03c97930ec4abbc4" name="library/Respect/Validation/Exceptions/ComponentException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="814cdf9142b941c915b2015051f33330" name="library/Respect/Validation/Exceptions/ContainsException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c5241a346bd910295539b1cbbb927729" name="library/Respect/Validation/Exceptions/CpfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="11e627706d830ea391325b595e9ccbf3" name="library/Respect/Validation/Exceptions/CreditCardException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="8debce3193873e88ef77c0dfdbe13c71" name="library/Respect/Validation/Exceptions/DateException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d18cea4bef802b7f6b6d24041702d891" name="library/Respect/Validation/Exceptions/DigitsException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="9749696a82e9036cd6ff05499dc9b428" name="library/Respect/Validation/Exceptions/DomainException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="5f782689d871947a721f5fe35ed4113c" name="library/Respect/Validation/Exceptions/EachException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4d84f9cccef74046b68820174216b4ea" name="library/Respect/Validation/Exceptions/EmailException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="ecb57076af5cf4f9465e220804daca4a" name="library/Respect/Validation/Exceptions/EndsWithException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="e7b03d5c9050de67e4aa5d1c10079d67" name="library/Respect/Validation/Exceptions/EqualsException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="380561a0cab85901fda8e1997d3d020e" name="library/Respect/Validation/Exceptions/EvenException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="a8ddf1959d302274dc9d268abc02d987" name="library/Respect/Validation/Exceptions/FloatException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="98173115c7b7eabf021becb5324acc6b" name="library/Respect/Validation/Exceptions/HexaException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="49bcffebc72d639841d8672c9acc8782" name="library/Respect/Validation/Exceptions/InException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="47ecdd624b57def1455df44565be2548" name="library/Respect/Validation/Exceptions/InstanceException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="133a8624191696ab6b65019c115c2d1e" name="library/Respect/Validation/Exceptions/IntException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="6e65b622d276322038b2a9bad924c2ac" name="library/Respect/Validation/Exceptions/IpException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7fe90497a3dcca12ebb33f4260423606" name="library/Respect/Validation/Exceptions/JsonException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="dfb39758b0602f60fe315e1579b3720a" name="library/Respect/Validation/Exceptions/KeyException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b59714bab9c1dd2c56a863423edfd9bd" name="library/Respect/Validation/Exceptions/LengthException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="951215139be55b78f61eba6cae6f436c" name="library/Respect/Validation/Exceptions/LowercaseException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="2afe54383c9acefa18fe2000788a1c38" name="library/Respect/Validation/Exceptions/MacAddressException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7c012060c13492c67224d592ec2eb79d" name="library/Respect/Validation/Exceptions/MaxException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="23e881d30d91693e9055bf6700066e58" name="library/Respect/Validation/Exceptions/MinException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b822fbadb9df724cd57bd4e0be815458" name="library/Respect/Validation/Exceptions/MinimumAgeException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="ba57fddb00df017350fa6bb7d3fe2c97" name="library/Respect/Validation/Exceptions/MostOfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f653ff91eb3a54feca004d0973b31b02" name="library/Respect/Validation/Exceptions/MultipleException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b43ee0a92ade08d03395fd481afbde35" name="library/Respect/Validation/Exceptions/NegativeException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f0e0192839f7fdd37a97da3aee87d33a" name="library/Respect/Validation/Exceptions/NoneOfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="3181fae090e98ff0834ca8f47f48c3ff" name="library/Respect/Validation/Exceptions/NotEmptyException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4163787c51999e52a2bd0f5460d18d74" name="library/Respect/Validation/Exceptions/NotException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="5780f7280221e9778a06698a50366419" name="library/Respect/Validation/Exceptions/NoWhitespaceException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="758040ca88610c5dcce24ee14475975c" name="library/Respect/Validation/Exceptions/NullValueException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="83f5758a74d8853cf4878c5b524ca4df" name="library/Respect/Validation/Exceptions/NumericException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="8bb929cf95fbe8e5e652a0911709fa8f" name="library/Respect/Validation/Exceptions/ObjectException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="dcae4757d1a4313662d85a3edd812b0b" name="library/Respect/Validation/Exceptions/OddException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="12b7451f253c51e6ad8f96bbc792c1d7" name="library/Respect/Validation/Exceptions/OneOfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="0a4e314f75a4527fdf346dffd9b6537e" name="library/Respect/Validation/Exceptions/PerfectSquareException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7fbbfd334dd84275fbad4d516e596278" name="library/Respect/Validation/Exceptions/PositiveException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f80e0a8089fdc031108ce99f27d554a4" name="library/Respect/Validation/Exceptions/PrimeNumberException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="5c109791d235fdf2ec05d6755c7353e2" name="library/Respect/Validation/Exceptions/RegexException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f8cba8a1d305c6e61710bb2e925ea6be" name="library/Respect/Validation/Exceptions/RomanException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="10fa9c863eec9cad6fa31ab633d9bcc2" name="library/Respect/Validation/Exceptions/SfException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="e4052c9daaf23c4f4c0219f407f53005" name="library/Respect/Validation/Exceptions/SlugException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="e2e9c333f33ee9ee1efa619a15d84538" name="library/Respect/Validation/Exceptions/StartsWithException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="217fa4e6caa0e45d198c1bc67179cccc" name="library/Respect/Validation/Exceptions/StringException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="cc4c92b6668b74ed6cb4c1319a7c4e9d" name="library/Respect/Validation/Exceptions/TldException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="63ca386684f2f92b0fc8cc2281ba2586" name="library/Respect/Validation/Exceptions/UppercaseException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d353691949fc46bf42be6682b4635378" name="library/Respect/Validation/Exceptions/ValidationException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d0f7b58ec9ad2e28a35db90fc79f7309" name="library/Respect/Validation/Exceptions/ZendException.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c74471d2c18784dc0ea44326054b7815" name="library/Respect/Validation/Rules/AbstractComposite.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="5678020226af307ee0f0c6500d6ffcec" name="library/Respect/Validation/Rules/AbstractRelated.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="8c7d616158b571d719c3eb6b5834bd15" name="library/Respect/Validation/Rules/AbstractRule.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f20a797357d60d4dc51db60bc5af380a" name="library/Respect/Validation/Rules/AllOf.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7b002c1fab94b46f85c5cb79c50a3c2d" name="library/Respect/Validation/Rules/Alnum.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="552fdfc619b936d8bdf88f1446fef92c" name="library/Respect/Validation/Rules/Alpha.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="12756760cc9c77a4724bc51cf0a9fbee" name="library/Respect/Validation/Rules/Arr.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4c04fb12ac03d8b9af94ebf137b54153" name="library/Respect/Validation/Rules/Attribute.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="a0468697e78e0c32849a240b1d38919c" name="library/Respect/Validation/Rules/Between.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="a9a4c20ba1503b8c5bc3b88b396af66b" name="library/Respect/Validation/Rules/Bool.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="1082a54183055639a3f9114ef2c142d0" name="library/Respect/Validation/Rules/Call.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="afa413988b7deb986fce99ead83eafa7" name="library/Respect/Validation/Rules/Callback.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c36bbd56f3d781dce518f6c4450d2bc5" name="library/Respect/Validation/Rules/Cnpj.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="0398919383076f701d53171f6d7e049f" name="library/Respect/Validation/Rules/Contains.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="97fdc53f682a18be5c1a532d0e88a0cf" name="library/Respect/Validation/Rules/Cpf.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="36d3bd1cb046f0325db125c56ba1a6fa" name="library/Respect/Validation/Rules/CreditCard.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="05807d988d657d68850e95e6be388a4d" name="library/Respect/Validation/Rules/Date.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="6123b1d57a96b526c20602cc5d499e42" name="library/Respect/Validation/Rules/Digits.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="2f5ba41bf05fe9ce8a3a4a16f575e78b" name="library/Respect/Validation/Rules/Domain.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="5cdaf975be1224e25ad98a7d33c1568e" name="library/Respect/Validation/Rules/Each.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="50fa9ce40cebaa0bf9d6af86b2d227ab" name="library/Respect/Validation/Rules/Email.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="6c801cf432d2b986caede33a93944295" name="library/Respect/Validation/Rules/EndsWith.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="66912623e9bd21648c74cbf06a7daca5" name="library/Respect/Validation/Rules/Equals.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="a3ad2a12ba6fc4f8987d6f1fb5699956" name="library/Respect/Validation/Rules/Even.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="3c9a61a1809446236206209cd651ccfe" name="library/Respect/Validation/Rules/Float.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="39cc11a4155fe5cf1c9ce28e2340f6eb" name="library/Respect/Validation/Rules/Hexa.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d269b8a5771c0a8685b20ec71dea394e" name="library/Respect/Validation/Rules/In.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="34c42f6e0ca06eea6549f0e02e222604" name="library/Respect/Validation/Rules/Instance.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="ecaa9849dc45a87c0704e997163ef0e9" name="library/Respect/Validation/Rules/Int.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c525618cf1e259175be3fcc049621a78" name="library/Respect/Validation/Rules/Ip.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="95d29c4bf616bf5acb853765adbd76b3" name="library/Respect/Validation/Rules/Json.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="6a1756533353b12a37515a0aebb57058" name="library/Respect/Validation/Rules/Key.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="06729582444458238999da1b2ac1bf26" name="library/Respect/Validation/Rules/LeapDate.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="2e19615287669c579267baced694624c" name="library/Respect/Validation/Rules/LeapYear.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="90f83afe16cdc2cffd4275c52654f895" name="library/Respect/Validation/Rules/Length.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d2a3a17471c7ed36ba31ed3dc225ae63" name="library/Respect/Validation/Rules/Lowercase.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="428d5a5f3740cc9fe8045c6b1f757066" name="library/Respect/Validation/Rules/MacAddress.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="bae9afe4982f0f8234de4cee675c84da" name="library/Respect/Validation/Rules/Max.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="97ca2859dee14e27b3bba6bf4bd2208f" name="library/Respect/Validation/Rules/Min.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b982af15ea6eba6de51f2fcf48ebc4a8" name="library/Respect/Validation/Rules/MinimumAge.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4e341c24d131c462b11d92049fdb79ae" name="library/Respect/Validation/Rules/Multiple.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="88b7c4060c13e548aac3f27f982cdc45" name="library/Respect/Validation/Rules/Negative.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="bd11ad16c0c39caf1ca1bf106e7fc82e" name="library/Respect/Validation/Rules/NoneOf.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="aa120c3314d873e9b3ff0b2a3231f537" name="library/Respect/Validation/Rules/Not.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="906daf6dd64f7163077cc51fe0f60caa" name="library/Respect/Validation/Rules/NotEmpty.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="fe5b4f4d7012a84df0bb4966239c0b49" name="library/Respect/Validation/Rules/NoWhitespace.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="a479276a653d1fd633137cbca91b2f12" name="library/Respect/Validation/Rules/NullValue.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b0ef9b30d4faf15b94908a1ca096822b" name="library/Respect/Validation/Rules/Numeric.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="1afb5a16db6d3da8489700f14ad3bd5a" name="library/Respect/Validation/Rules/Object.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="4a098184329d9473b43dde6c46b7f08d" name="library/Respect/Validation/Rules/Odd.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d4eb25b67c3ba62168b527918545f7c8" name="library/Respect/Validation/Rules/OneOf.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="f556453c2a15fb5e8824577f2bce5fe3" name="library/Respect/Validation/Rules/PerfectSquare.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d83ef200ecdd5a5f0a98bc7d0f248b77" name="library/Respect/Validation/Rules/Positive.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="b7ddc4c3dc6b46246bba670e49751bfe" name="library/Respect/Validation/Rules/PrimeNumber.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="75e118883c85752622de29db58977711" name="library/Respect/Validation/Rules/Regex.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="81e8be4c1b61d2d6e2d826a2b1f8de2a" name="library/Respect/Validation/Rules/Roman.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="84f509b6976cf558dc1020875da020d9" name="library/Respect/Validation/Rules/Sf.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c3b59258bc49c445e2ef1780c4f528e6" name="library/Respect/Validation/Rules/Slug.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="c1a1984544f9ad52d92297d2b5c5da85" name="library/Respect/Validation/Rules/StartsWith.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="174bd375035b905a1118c1f8d64835fb" name="library/Respect/Validation/Rules/String.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="1f600b60dd2d9a7de4f6d27748dcc75d" name="library/Respect/Validation/Rules/Tld.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7e86006efc692fc89118ab950290789a" name="library/Respect/Validation/Rules/Uppercase.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="d4c2f2fe5d6b5616510aa56593dff73c" name="library/Respect/Validation/Rules/Zend.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="7e6fd8b1c46a19cb0fba8894aca80cc9" name="library/Respect/Validation/Validatable.php" role="php" />
+   <file baseinstalldir="Respect/Validation" md5sum="88d84dfada21988e8cac79269709c015" name="library/Respect/Validation/Validator.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Validator</name>
+    <channel>pear.symfony.com</channel>
+   </package>
+   <package>
+    <name>Zend_Validator</name>
+    <channel>packages.zendframework.com</channel>
+   </package>
+   <package>
+    <name>Zend_Filter</name>
+    <channel>packages.zendframework.com</channel>
+   </package>
+   <package>
+    <name>Zend_Registry</name>
+    <channel>packages.zendframework.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="/ExceptionIterator.php" name="library/Respect/Validation/ExceptionIterator.php" />
+   <install as="/Exceptions/AbstractGroupedException.php" name="library/Respect/Validation/Exceptions/AbstractGroupedException.php" />
+   <install as="/Exceptions/AbstractNestedException.php" name="library/Respect/Validation/Exceptions/AbstractNestedException.php" />
+   <install as="/Exceptions/AllOfException.php" name="library/Respect/Validation/Exceptions/AllOfException.php" />
+   <install as="/Exceptions/AlnumException.php" name="library/Respect/Validation/Exceptions/AlnumException.php" />
+   <install as="/Exceptions/AlphaException.php" name="library/Respect/Validation/Exceptions/AlphaException.php" />
+   <install as="/Exceptions/ArrException.php" name="library/Respect/Validation/Exceptions/ArrException.php" />
+   <install as="/Exceptions/AtLeastException.php" name="library/Respect/Validation/Exceptions/AtLeastException.php" />
+   <install as="/Exceptions/AttributeException.php" name="library/Respect/Validation/Exceptions/AttributeException.php" />
+   <install as="/Exceptions/BetweenException.php" name="library/Respect/Validation/Exceptions/BetweenException.php" />
+   <install as="/Exceptions/BoolException.php" name="library/Respect/Validation/Exceptions/BoolException.php" />
+   <install as="/Exceptions/CallbackException.php" name="library/Respect/Validation/Exceptions/CallbackException.php" />
+   <install as="/Exceptions/CallException.php" name="library/Respect/Validation/Exceptions/CallException.php" />
+   <install as="/Exceptions/ComponentException.php" name="library/Respect/Validation/Exceptions/ComponentException.php" />
+   <install as="/Exceptions/ContainsException.php" name="library/Respect/Validation/Exceptions/ContainsException.php" />
+   <install as="/Exceptions/CpfException.php" name="library/Respect/Validation/Exceptions/CpfException.php" />
+   <install as="/Exceptions/CreditCardException.php" name="library/Respect/Validation/Exceptions/CreditCardException.php" />
+   <install as="/Exceptions/DateException.php" name="library/Respect/Validation/Exceptions/DateException.php" />
+   <install as="/Exceptions/DigitsException.php" name="library/Respect/Validation/Exceptions/DigitsException.php" />
+   <install as="/Exceptions/DomainException.php" name="library/Respect/Validation/Exceptions/DomainException.php" />
+   <install as="/Exceptions/EachException.php" name="library/Respect/Validation/Exceptions/EachException.php" />
+   <install as="/Exceptions/EmailException.php" name="library/Respect/Validation/Exceptions/EmailException.php" />
+   <install as="/Exceptions/EndsWithException.php" name="library/Respect/Validation/Exceptions/EndsWithException.php" />
+   <install as="/Exceptions/EqualsException.php" name="library/Respect/Validation/Exceptions/EqualsException.php" />
+   <install as="/Exceptions/EvenException.php" name="library/Respect/Validation/Exceptions/EvenException.php" />
+   <install as="/Exceptions/FloatException.php" name="library/Respect/Validation/Exceptions/FloatException.php" />
+   <install as="/Exceptions/HexaException.php" name="library/Respect/Validation/Exceptions/HexaException.php" />
+   <install as="/Exceptions/InException.php" name="library/Respect/Validation/Exceptions/InException.php" />
+   <install as="/Exceptions/InstanceException.php" name="library/Respect/Validation/Exceptions/InstanceException.php" />
+   <install as="/Exceptions/IntException.php" name="library/Respect/Validation/Exceptions/IntException.php" />
+   <install as="/Exceptions/IpException.php" name="library/Respect/Validation/Exceptions/IpException.php" />
+   <install as="/Exceptions/JsonException.php" name="library/Respect/Validation/Exceptions/JsonException.php" />
+   <install as="/Exceptions/KeyException.php" name="library/Respect/Validation/Exceptions/KeyException.php" />
+   <install as="/Exceptions/LengthException.php" name="library/Respect/Validation/Exceptions/LengthException.php" />
+   <install as="/Exceptions/LowercaseException.php" name="library/Respect/Validation/Exceptions/LowercaseException.php" />
+   <install as="/Exceptions/MacAddressException.php" name="library/Respect/Validation/Exceptions/MacAddressException.php" />
+   <install as="/Exceptions/MaxException.php" name="library/Respect/Validation/Exceptions/MaxException.php" />
+   <install as="/Exceptions/MinException.php" name="library/Respect/Validation/Exceptions/MinException.php" />
+   <install as="/Exceptions/MinimumAgeException.php" name="library/Respect/Validation/Exceptions/MinimumAgeException.php" />
+   <install as="/Exceptions/MostOfException.php" name="library/Respect/Validation/Exceptions/MostOfException.php" />
+   <install as="/Exceptions/MultipleException.php" name="library/Respect/Validation/Exceptions/MultipleException.php" />
+   <install as="/Exceptions/NegativeException.php" name="library/Respect/Validation/Exceptions/NegativeException.php" />
+   <install as="/Exceptions/NoneOfException.php" name="library/Respect/Validation/Exceptions/NoneOfException.php" />
+   <install as="/Exceptions/NotEmptyException.php" name="library/Respect/Validation/Exceptions/NotEmptyException.php" />
+   <install as="/Exceptions/NotException.php" name="library/Respect/Validation/Exceptions/NotException.php" />
+   <install as="/Exceptions/NoWhitespaceException.php" name="library/Respect/Validation/Exceptions/NoWhitespaceException.php" />
+   <install as="/Exceptions/NullValueException.php" name="library/Respect/Validation/Exceptions/NullValueException.php" />
+   <install as="/Exceptions/NumericException.php" name="library/Respect/Validation/Exceptions/NumericException.php" />
+   <install as="/Exceptions/ObjectException.php" name="library/Respect/Validation/Exceptions/ObjectException.php" />
+   <install as="/Exceptions/OddException.php" name="library/Respect/Validation/Exceptions/OddException.php" />
+   <install as="/Exceptions/OneOfException.php" name="library/Respect/Validation/Exceptions/OneOfException.php" />
+   <install as="/Exceptions/PerfectSquareException.php" name="library/Respect/Validation/Exceptions/PerfectSquareException.php" />
+   <install as="/Exceptions/PositiveException.php" name="library/Respect/Validation/Exceptions/PositiveException.php" />
+   <install as="/Exceptions/PrimeNumberException.php" name="library/Respect/Validation/Exceptions/PrimeNumberException.php" />
+   <install as="/Exceptions/RegexException.php" name="library/Respect/Validation/Exceptions/RegexException.php" />
+   <install as="/Exceptions/RomanException.php" name="library/Respect/Validation/Exceptions/RomanException.php" />
+   <install as="/Exceptions/SfException.php" name="library/Respect/Validation/Exceptions/SfException.php" />
+   <install as="/Exceptions/SlugException.php" name="library/Respect/Validation/Exceptions/SlugException.php" />
+   <install as="/Exceptions/StartsWithException.php" name="library/Respect/Validation/Exceptions/StartsWithException.php" />
+   <install as="/Exceptions/StringException.php" name="library/Respect/Validation/Exceptions/StringException.php" />
+   <install as="/Exceptions/TldException.php" name="library/Respect/Validation/Exceptions/TldException.php" />
+   <install as="/Exceptions/UppercaseException.php" name="library/Respect/Validation/Exceptions/UppercaseException.php" />
+   <install as="/Exceptions/ValidationException.php" name="library/Respect/Validation/Exceptions/ValidationException.php" />
+   <install as="/Exceptions/ZendException.php" name="library/Respect/Validation/Exceptions/ZendException.php" />
+   <install as="/Rules/AbstractComposite.php" name="library/Respect/Validation/Rules/AbstractComposite.php" />
+   <install as="/Rules/AbstractRelated.php" name="library/Respect/Validation/Rules/AbstractRelated.php" />
+   <install as="/Rules/AbstractRule.php" name="library/Respect/Validation/Rules/AbstractRule.php" />
+   <install as="/Rules/AllOf.php" name="library/Respect/Validation/Rules/AllOf.php" />
+   <install as="/Rules/Alnum.php" name="library/Respect/Validation/Rules/Alnum.php" />
+   <install as="/Rules/Alpha.php" name="library/Respect/Validation/Rules/Alpha.php" />
+   <install as="/Rules/Arr.php" name="library/Respect/Validation/Rules/Arr.php" />
+   <install as="/Rules/Attribute.php" name="library/Respect/Validation/Rules/Attribute.php" />
+   <install as="/Rules/Between.php" name="library/Respect/Validation/Rules/Between.php" />
+   <install as="/Rules/Bool.php" name="library/Respect/Validation/Rules/Bool.php" />
+   <install as="/Rules/Call.php" name="library/Respect/Validation/Rules/Call.php" />
+   <install as="/Rules/Callback.php" name="library/Respect/Validation/Rules/Callback.php" />
+   <install as="/Rules/Cnpj.php" name="library/Respect/Validation/Rules/Cnpj.php" />
+   <install as="/Rules/Contains.php" name="library/Respect/Validation/Rules/Contains.php" />
+   <install as="/Rules/Cpf.php" name="library/Respect/Validation/Rules/Cpf.php" />
+   <install as="/Rules/CreditCard.php" name="library/Respect/Validation/Rules/CreditCard.php" />
+   <install as="/Rules/Date.php" name="library/Respect/Validation/Rules/Date.php" />
+   <install as="/Rules/Digits.php" name="library/Respect/Validation/Rules/Digits.php" />
+   <install as="/Rules/Domain.php" name="library/Respect/Validation/Rules/Domain.php" />
+   <install as="/Rules/Each.php" name="library/Respect/Validation/Rules/Each.php" />
+   <install as="/Rules/Email.php" name="library/Respect/Validation/Rules/Email.php" />
+   <install as="/Rules/EndsWith.php" name="library/Respect/Validation/Rules/EndsWith.php" />
+   <install as="/Rules/Equals.php" name="library/Respect/Validation/Rules/Equals.php" />
+   <install as="/Rules/Even.php" name="library/Respect/Validation/Rules/Even.php" />
+   <install as="/Rules/Float.php" name="library/Respect/Validation/Rules/Float.php" />
+   <install as="/Rules/Hexa.php" name="library/Respect/Validation/Rules/Hexa.php" />
+   <install as="/Rules/In.php" name="library/Respect/Validation/Rules/In.php" />
+   <install as="/Rules/Instance.php" name="library/Respect/Validation/Rules/Instance.php" />
+   <install as="/Rules/Int.php" name="library/Respect/Validation/Rules/Int.php" />
+   <install as="/Rules/Ip.php" name="library/Respect/Validation/Rules/Ip.php" />
+   <install as="/Rules/Json.php" name="library/Respect/Validation/Rules/Json.php" />
+   <install as="/Rules/Key.php" name="library/Respect/Validation/Rules/Key.php" />
+   <install as="/Rules/LeapDate.php" name="library/Respect/Validation/Rules/LeapDate.php" />
+   <install as="/Rules/LeapYear.php" name="library/Respect/Validation/Rules/LeapYear.php" />
+   <install as="/Rules/Length.php" name="library/Respect/Validation/Rules/Length.php" />
+   <install as="/Rules/Lowercase.php" name="library/Respect/Validation/Rules/Lowercase.php" />
+   <install as="/Rules/MacAddress.php" name="library/Respect/Validation/Rules/MacAddress.php" />
+   <install as="/Rules/Max.php" name="library/Respect/Validation/Rules/Max.php" />
+   <install as="/Rules/Min.php" name="library/Respect/Validation/Rules/Min.php" />
+   <install as="/Rules/MinimumAge.php" name="library/Respect/Validation/Rules/MinimumAge.php" />
+   <install as="/Rules/Multiple.php" name="library/Respect/Validation/Rules/Multiple.php" />
+   <install as="/Rules/Negative.php" name="library/Respect/Validation/Rules/Negative.php" />
+   <install as="/Rules/NoneOf.php" name="library/Respect/Validation/Rules/NoneOf.php" />
+   <install as="/Rules/Not.php" name="library/Respect/Validation/Rules/Not.php" />
+   <install as="/Rules/NotEmpty.php" name="library/Respect/Validation/Rules/NotEmpty.php" />
+   <install as="/Rules/NoWhitespace.php" name="library/Respect/Validation/Rules/NoWhitespace.php" />
+   <install as="/Rules/NullValue.php" name="library/Respect/Validation/Rules/NullValue.php" />
+   <install as="/Rules/Numeric.php" name="library/Respect/Validation/Rules/Numeric.php" />
+   <install as="/Rules/Object.php" name="library/Respect/Validation/Rules/Object.php" />
+   <install as="/Rules/Odd.php" name="library/Respect/Validation/Rules/Odd.php" />
+   <install as="/Rules/OneOf.php" name="library/Respect/Validation/Rules/OneOf.php" />
+   <install as="/Rules/PerfectSquare.php" name="library/Respect/Validation/Rules/PerfectSquare.php" />
+   <install as="/Rules/Positive.php" name="library/Respect/Validation/Rules/Positive.php" />
+   <install as="/Rules/PrimeNumber.php" name="library/Respect/Validation/Rules/PrimeNumber.php" />
+   <install as="/Rules/Regex.php" name="library/Respect/Validation/Rules/Regex.php" />
+   <install as="/Rules/Roman.php" name="library/Respect/Validation/Rules/Roman.php" />
+   <install as="/Rules/Sf.php" name="library/Respect/Validation/Rules/Sf.php" />
+   <install as="/Rules/Slug.php" name="library/Respect/Validation/Rules/Slug.php" />
+   <install as="/Rules/StartsWith.php" name="library/Respect/Validation/Rules/StartsWith.php" />
+   <install as="/Rules/String.php" name="library/Respect/Validation/Rules/String.php" />
+   <install as="/Rules/Tld.php" name="library/Respect/Validation/Rules/Tld.php" />
+   <install as="/Rules/Uppercase.php" name="library/Respect/Validation/Rules/Uppercase.php" />
+   <install as="/Rules/Zend.php" name="library/Respect/Validation/Rules/Zend.php" />
+   <install as="/Validatable.php" name="library/Respect/Validation/Validatable.php" />
+   <install as="/Validator.php" name="library/Respect/Validation/Validator.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.2</release>
+    <api>0.3.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.3</release>
+    <api>0.3.3</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.4</release>
+    <api>0.3.4</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.5</release>
+    <api>0.3.5</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.6</release>
+    <api>0.3.6</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2009-09-09</date>
+   <time>09:09:09</time>
+   <notes>
+This release date and time might be innacurate.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.7</release>
+    <api>0.3.7</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2011-12-22</date>
+   <time>19:16:15</time>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.8</release>
+    <api>0.3.8</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+   <date>2012-03-27</date>
+   <time>02:55:04</time>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://respect.li/pear</id>
-    <updated>2012-03-25T05:53:04+02:00</updated>
+    <updated>2012-03-27T04:57:22+02:00</updated>
     <title>Respect PEAR Channel Server Latest Releases</title>
     <link href="http://respect.li/pear/feed.xml" rel="self" />
     <author>
@@ -224,6 +224,19 @@ Thin controller for RESTful applications
             <name>alganet</name>
         </author>
         <updated>2011-12-14T18:49:08+01:00</updated>
+        <content>
+            
+-
+ 
+        </content>
+    </entry>    <entry>
+        <title>Validation 0.3.8 (alpha)</title>
+        <link href="http://respect.li/pear/get/Validation-0.3.8.tgz" />
+        <id>http://respect.li/pear/get/Validation-0.3.8.tgz</id>
+        <author>
+            <name>alganet</name>
+        </author>
+        <updated>2012-03-27T02:55:26+02:00</updated>
         <content>
             
 -
