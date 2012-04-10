@@ -103,10 +103,6 @@
    <pearinstaller>
     <min>1.4.1</min>
    </pearinstaller>
-   <package>
-    <name>pear</name>
-    <channel>respect.li</channel>
-   </package>
    <extension>
     <name>reflection</name>
    </extension>

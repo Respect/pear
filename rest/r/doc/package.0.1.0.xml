@@ -39,7 +39,7 @@
    </pearinstaller>
    <package>
     <name>PHPUnit</name>
-    <channel>http://pear.phpunit.de</channel>
+    <channel>pear.phpunit.de</channel>
    </package>
   </required>
  </dependencies>
