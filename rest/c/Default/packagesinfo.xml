@@ -133,6 +133,10 @@
 
         <a>
             <r>
+                <v>0.1.11</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.1.10</v>
                 <s>alpha</s>
             </r>
@@ -171,6 +175,10 @@
 
         </a>
 
+        <deps>
+            <v>0.1.11</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.1";}s:9:"extension";a:1:{s:4:"name";s:10:"reflection";}}}</d>
+        </deps>
         <deps>
             <v>0.1.10</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.1";}s:9:"extension";a:1:{s:4:"name";s:10:"reflection";}}}</d>
