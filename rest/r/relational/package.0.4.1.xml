@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0        http://pear.php.net/dtd/tasks-1.0.xsd        http://pear.php.net/dtd/package-2.0        http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Relational</name>
+ <channel>respect.li/pear</channel>
+ <summary>Fluent Database Toolkit</summary>
+ <description>Fluent Database Toolkit</description>
+ <lead>
+  <name>Alexandre</name>
+  <user />
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Alexandre Gaigalas</name>
+  <user />
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Alexandre Gaigalas</name>
+  <user />
+  <email>alganet@alganet-workstation.(none)</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Alexandre Gomes Gaigalas</name>
+  <user />
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Claudson Oliveira</name>
+  <user />
+  <email>claudsonweb@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Henrique Moody</name>
+  <user />
+  <email>henriquemoody@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Kinn Coelho Julia?o</name>
+  <user />
+  <email>kinncj@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Rogerio Prado de Jesus</name>
+  <user />
+  <email>rogeriopradoj@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Thiago Rigo</name>
+  <user />
+  <email>thiagophx@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-11</date>
+ <time>04:58:14</time>
+ <version>
+  <release>0.4.1</release>
+  <api>0.4.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license>BSD Style</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="03642477f5a201be9c3161eb64dde993" name="tests/phpunit.xml" role="test" />
+   <file md5sum="ffb90e53f1cbb127fa5b2c70f5e42ae2" name="tests/bootstrap.php" role="test" />
+   <file md5sum="4329b3af97f88cc91e4aece730a02287" name="tests/library/Respect/Relational/SqlTest.php" role="test" />
+   <file md5sum="36532c553ba0425cc9dc3db553f17d93" name="tests/library/Respect/Relational/Styles/StandardTest.php" role="test" />
+   <file md5sum="9bbfcc41c2ccbffb68dc2ef809544dde" name="tests/library/Respect/Relational/Styles/CakePHPTest.php" role="test" />
+   <file md5sum="444f228b9d52612f41f052fbde2f89dd" name="tests/library/Respect/Relational/Styles/NorthWindTest.php" role="test" />
+   <file md5sum="25b8c039017ea53c97574db3ad2f03a3" name="tests/library/Respect/Relational/Styles/AbstractStyleTest.php" role="test" />
+   <file md5sum="0060a6f37821d2a94597836e2dcb3074" name="tests/library/Respect/Relational/Styles/SakilaTest.php" role="test" />
+   <file md5sum="4ae724c86854126847cbd6081c5bd805" name="tests/library/Respect/Relational/DbTest.php" role="test" />
+   <file md5sum="92234ebfe3f4c587449e268def377014" name="tests/library/Respect/Relational/MapperTest.php" role="test" />
+   <file md5sum="44e57ca3f1987777a57069cc8df505ca" name="library/Respect/Relational/Styles/Stylable.php" role="php" />
+   <file md5sum="2e978c4b7b9e87ed7a112ba2cb37ec67" name="library/Respect/Relational/Styles/CakePHP.php" role="php" />
+   <file md5sum="f5063e3f5974f270204fabd5716429a1" name="library/Respect/Relational/Styles/Standard.php" role="php" />
+   <file md5sum="c5ea1a0f59ef385fa8e279124ab99f0c" name="library/Respect/Relational/Styles/NorthWind.php" role="php" />
+   <file md5sum="95aa38d27c5bd663988cc6eec0c3a938" name="library/Respect/Relational/Styles/Sakila.php" role="php" />
+   <file md5sum="de11487c1fb4faf97aafc4c793fc258d" name="library/Respect/Relational/Styles/AbstractStyle.php" role="php" />
+   <file md5sum="a2aef68de3237dbbbce47ae07ade5a9a" name="library/Respect/Relational/Sql.php" role="php" />
+   <file md5sum="b37872d2616a45db80a570b0a760eac7" name="library/Respect/Relational/Db.php" role="php" />
+   <file md5sum="bcdc582ae714644c6a5da9bf1fd35f68" name="library/Respect/Relational/Mapper.php" role="php" />
+   <file md5sum="a988a154d4fc5689ea25be342268758a" name="library/Respect/Data/AbstractMapper.php" role="php" />
+   <file md5sum="efa3833abafaa55987b99660d946b2c6" name="library/Respect/Data/CollectionIterator.php" role="php" />
+   <file md5sum="0f8f9c60fc8294b599f162c20d572782" name="library/Respect/Data/Collection.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>Data</name>
+    <channel>respect.li/pear</channel>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="phpunit.xml" name="tests/phpunit.xml" />
+   <install as="bootstrap.php" name="tests/bootstrap.php" />
+   <install as="library/Respect/Relational/SqlTest.php" name="tests/library/Respect/Relational/SqlTest.php" />
+   <install as="library/Respect/Relational/Styles/StandardTest.php" name="tests/library/Respect/Relational/Styles/StandardTest.php" />
+   <install as="library/Respect/Relational/Styles/CakePHPTest.php" name="tests/library/Respect/Relational/Styles/CakePHPTest.php" />
+   <install as="library/Respect/Relational/Styles/NorthWindTest.php" name="tests/library/Respect/Relational/Styles/NorthWindTest.php" />
+   <install as="library/Respect/Relational/Styles/AbstractStyleTest.php" name="tests/library/Respect/Relational/Styles/AbstractStyleTest.php" />
+   <install as="library/Respect/Relational/Styles/SakilaTest.php" name="tests/library/Respect/Relational/Styles/SakilaTest.php" />
+   <install as="library/Respect/Relational/DbTest.php" name="tests/library/Respect/Relational/DbTest.php" />
+   <install as="library/Respect/Relational/MapperTest.php" name="tests/library/Respect/Relational/MapperTest.php" />
+   <install as="Respect/Relational/Styles/Stylable.php" name="library/Respect/Relational/Styles/Stylable.php" />
+   <install as="Respect/Relational/Styles/CakePHP.php" name="library/Respect/Relational/Styles/CakePHP.php" />
+   <install as="Respect/Relational/Styles/Standard.php" name="library/Respect/Relational/Styles/Standard.php" />
+   <install as="Respect/Relational/Styles/NorthWind.php" name="library/Respect/Relational/Styles/NorthWind.php" />
+   <install as="Respect/Relational/Styles/Sakila.php" name="library/Respect/Relational/Styles/Sakila.php" />
+   <install as="Respect/Relational/Styles/AbstractStyle.php" name="library/Respect/Relational/Styles/AbstractStyle.php" />
+   <install as="Respect/Relational/Sql.php" name="library/Respect/Relational/Sql.php" />
+   <install as="Respect/Relational/Db.php" name="library/Respect/Relational/Db.php" />
+   <install as="Respect/Relational/Mapper.php" name="library/Respect/Relational/Mapper.php" />
+   <install as="Respect/Data/AbstractMapper.php" name="library/Respect/Data/AbstractMapper.php" />
+   <install as="Respect/Data/CollectionIterator.php" name="library/Respect/Data/CollectionIterator.php" />
+   <install as="Respect/Data/Collection.php" name="library/Respect/Data/Collection.php" />
+  </filelist>
+ </phprelease>
+</package>

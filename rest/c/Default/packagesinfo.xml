@@ -261,6 +261,10 @@
 
         <a>
             <r>
+                <v>0.4.1</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.4.0</v>
                 <s>alpha</s>
             </r>
@@ -279,6 +283,10 @@
 
         </a>
 
+        <deps>
+            <v>0.4.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.1";}s:7:"package";a:2:{s:4:"name";s:4:"Data";s:7:"channel";s:15:"respect.li/pear";}}}</d>
+        </deps>
         <deps>
             <v>0.4.0</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:3:"5.3";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}s:7:"package";a:2:{s:4:"name";s:4:"Data";s:7:"channel";s:15:"respect.li/pear";}}}</d>
