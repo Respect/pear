@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/validation">Validation</p>
+    <c>respect.li/pear</c>
+    <v>0.4.4</v>
+    <a>0.4.4</a>
+    <mp>5.3</mp>
+    <st>alpha</st>
+    <l>BSD Style</l>
+    <m></m>
+    <s>The most awesome validation engine ever created for PHP</s>
+    <d>The most awesome validation engine ever created for PHP</d>
+    <da>2012-04-25 02:52:46</da>
+    <n>
+-
+ </n>
+    <f>480344</f>
+    <g>http://respect.li/pear/get/Validation-0.4.4</g>
+    <x xlink:href="package.0.4.4.xml"/>
+</r>

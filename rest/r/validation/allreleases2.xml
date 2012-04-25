@@ -3,6 +3,11 @@
     <p>Validation</p>
     <c>respect.li/pear</c>
     <r>
+        <v>0.4.4</v>
+        <s>alpha</s>
+        <m>5.3</m>
+    </r>
+    <r>
         <v>0.4.3</v>
         <s>alpha</s>
         <m>5.3</m>
