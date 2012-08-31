@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/conversion">Conversion</p>
+    <c>respect.li/pear</c>
+    <v>0.1.0</v>
+    <st>alpha</st>
+    <l>BSD Style</l>
+    <m></m>
+    <s>Most awesome conversion engine</s>
+    <d>Most awesome conversion engine ever written in PHP.</d>
+    <da>2012-08-31 20:03:17</da>
+    <n>
+-
+ </n>
+    <f>15485</f>
+    <g>http://respect.li/pear/get/Conversion-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>
