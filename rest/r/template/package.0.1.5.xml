@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0               http://pear.php.net/dtd/tasks-1.0.xsd               http://pear.php.net/dtd/package-2.0               http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Template</name>
+ <channel>respect.li/pear</channel>
+ <summary>Pure HTML templates</summary>
+ <description>Pure HTML templates</description>
+ <lead>
+  <name>Alexandre Gaigalas</name>
+  <user />
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Alexandre Gaigalas</name>
+  <user />
+  <email>alexandre@gaigalas.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Augusto Pascutti</name>
+  <user />
+  <email>augusto@phpsp.org.br</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Henrique Moody</name>
+  <user />
+  <email>henriquemoody@gmail.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-09-03</date>
+ <time>03:26:54</time>
+ <version>
+  <release>0.1.5</release>
+  <api>0.1.5</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license>BSD Style</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="8e02797790510cc90a5b59c6e299add5" name="examples/001.css" role="doc" />
+   <file md5sum="1744dd2a2740484dddb4ae36fc369d98" name="examples/cssZenGarden.html" role="doc" />
+   <file md5sum="426f18dc91e20da68953aa30f2441bef" name="examples/simple.php" role="doc" />
+   <file md5sum="a664b38c7648358714e17c2f5e7c82e1" name="tests/bootstrap.php" role="test" />
+   <file md5sum="ff5a73f96e27c4f243f83f94c9a19185" name="tests/library/Respect/Template/Adapters/ATest.php" role="test" />
+   <file md5sum="7ac1b9c7ca84ca5452c347b47b19fb88" name="tests/library/Respect/Template/Adapters/HtmlElementTest.php" role="test" />
+   <file md5sum="272605e4a311bcc6b6e96fb22a60c569" name="tests/library/Respect/Template/Adapters/StringTest.php" role="test" />
+   <file md5sum="2fc2b6dd6fd0c077bac4d9529e3d5288" name="tests/library/Respect/Template/Adapters/TraversableTest.php" role="test" />
+   <file md5sum="f68b53d4de98cb480de882f3458992cb" name="tests/library/Respect/Template/AdapterTest.php" role="test" />
+   <file md5sum="00cb3dc5974cbdbec0deb02418af4d6f" name="tests/library/Respect/Template/Decorators/AppendTest.php" role="test" />
+   <file md5sum="1c367f59395bbda390323ac112c49a58" name="tests/library/Respect/Template/Decorators/CleanAppendTest.php" role="test" />
+   <file md5sum="0699e1f4dae3168d8d4e0e711be1e26a" name="tests/library/Respect/Template/Decorators/CleanTest.php" role="test" />
+   <file md5sum="931a8c4fcbb5280673bfd53e571364e8" name="tests/library/Respect/Template/Decorators/ReplaceTest.php" role="test" />
+   <file md5sum="b81ac5cc4328bd6ae1fdfd0e90dd7804" name="tests/library/Respect/Template/HtmlElementTest.php" role="test" />
+   <file md5sum="f2b694a6aadbf46081e3f97a398e9426" name="tests/library/Respect/Template/HtmlTest.php" role="test" />
+   <file md5sum="0aeb3da394718c926db2d53f6d7e3db8" name="tests/phpunit.xml" role="test" />
+   <file md5sum="770d9c592b4300457ae025448c4c6816" name="tests/reports/coverage/close12_1.gif" role="test" />
+   <file md5sum="5511b676a4961a0dfb52e1f64ce65a7a" name="tests/reports/coverage/container-min.js" role="test" />
+   <file md5sum="495d2ec9631eb89063bdd9d70bd731dc" name="tests/reports/coverage/container.css" role="test" />
+   <file md5sum="0c2ea106ded3a3b443ad39e3eddcd7a6" name="tests/reports/coverage/directory.png" role="test" />
+   <file md5sum="6983bd4ac09f5135eb128cbdf0ceadfe" name="tests/reports/coverage/file.png" role="test" />
+   <file md5sum="d0bcded9081d6a0efda48c495867da73" name="tests/reports/coverage/glass.png" role="test" />
+   <file md5sum="08cdf43b4ba8ce789f86a30a09071ca8" name="tests/reports/coverage/highcharts.js" role="test" />
+   <file md5sum="301ec35dc8c06332935a807caeabd9e3" name="tests/reports/coverage/index.dashboard.html" role="test" />
+   <file md5sum="27c7fa7bcc75cdd95943844545a3acb2" name="tests/reports/coverage/index.html" role="test" />
+   <file md5sum="0efa3b9aa0f509043308e7c6e23538f8" name="tests/reports/coverage/jquery.min.js" role="test" />
+   <file md5sum="f92107af8a82aafb6dcb235423b2464e" name="tests/reports/coverage/src.dashboard.html" role="test" />
+   <file md5sum="27e8faa6598b6cd058efd215c91069cc" name="tests/reports/coverage/src.html" role="test" />
+   <file md5sum="89c1585913a3afd60049b0424e62c599" name="tests/reports/coverage/src_Respect.dashboard.html" role="test" />
+   <file md5sum="9a03ec00dd683cc04a71a359d1c415e0" name="tests/reports/coverage/src_Respect.html" role="test" />
+   <file md5sum="8249b2c373c536155810c298ad235668" name="tests/reports/coverage/src_Respect_Template.dashboard.html" role="test" />
+   <file md5sum="6dd2c4476e7603d90b8a2b06edd9ae70" name="tests/reports/coverage/src_Respect_Template.html" role="test" />
+   <file md5sum="de55217b68ea4a45050a400dfd6bc1fd" name="tests/reports/coverage/src_Respect_Template_Adapter.php.html" role="test" />
+   <file md5sum="6156b5c0e43933646c9a27058c261f6e" name="tests/reports/coverage/src_Respect_Template_Adapters.dashboard.html" role="test" />
+   <file md5sum="5c22dc0c3ce888f9b2c504b094e58d9e" name="tests/reports/coverage/src_Respect_Template_Adapters.html" role="test" />
+   <file md5sum="cf7cba125994b3fef30c285407b42aef" name="tests/reports/coverage/src_Respect_Template_Adapters_A.php.html" role="test" />
+   <file md5sum="50a2fff603cc0ec3bce31be5e862109c" name="tests/reports/coverage/src_Respect_Template_Adapters_AbstractAdapter.php.html" role="test" />
+   <file md5sum="3b750f02f8ae9a87a677a638920bc6b9" name="tests/reports/coverage/src_Respect_Template_Adapters_Dom.php.html" role="test" />
+   <file md5sum="6d40d95d82bd7fc8d55075106655872b" name="tests/reports/coverage/src_Respect_Template_Adapters_HtmlElement.php.html" role="test" />
+   <file md5sum="78eba43b78d007186759640c0ffdb10b" name="tests/reports/coverage/src_Respect_Template_Adapters_String.php.html" role="test" />
+   <file md5sum="c4c7f955b6000e7d698d5d0f810552ac" name="tests/reports/coverage/src_Respect_Template_Adapters_Traversable.php.html" role="test" />
+   <file md5sum="6d256d964547d7da6e1c28f212cd1657" name="tests/reports/coverage/src_Respect_Template_Decorators.dashboard.html" role="test" />
+   <file md5sum="7dd1eec29bc676592dc1171522ea5dce" name="tests/reports/coverage/src_Respect_Template_Decorators.html" role="test" />
+   <file md5sum="cd81f2b08f43304006c7c4dfb88225b1" name="tests/reports/coverage/src_Respect_Template_Decorators_AbstractDecorator.php.html" role="test" />
+   <file md5sum="9578864eb3b613831b0b3ca7230d8845" name="tests/reports/coverage/src_Respect_Template_Decorators_Append.php.html" role="test" />
+   <file md5sum="44f4bedb56c59161ca9ea64d19d2bcc9" name="tests/reports/coverage/src_Respect_Template_Decorators_Clean.php.html" role="test" />
+   <file md5sum="b7d12e7340826fdbeb5d484d21e9f535" name="tests/reports/coverage/src_Respect_Template_Decorators_CleanAppend.php.html" role="test" />
+   <file md5sum="adf40147cb979f713324ceef2f28dd41" name="tests/reports/coverage/src_Respect_Template_Decorators_Replace.php.html" role="test" />
+   <file md5sum="0ed7342b0154c605c914c4c9b657cee0" name="tests/reports/coverage/src_Respect_Template_Document.php.html" role="test" />
+   <file md5sum="51fc910b7b48e9c10f830304d2eee08c" name="tests/reports/coverage/src_Respect_Template_Html.php.html" role="test" />
+   <file md5sum="68741c3fbe56b91a6665b85a1d2ca088" name="tests/reports/coverage/src_Respect_Template_HtmlElement.php.html" role="test" />
+   <file md5sum="973e5bce3119296fad41eb4b33a8171e" name="tests/reports/coverage/src_Respect_Template_Query.php.html" role="test" />
+   <file md5sum="b3e51b9ce27403e89917b43c0ca360da" name="tests/reports/coverage/src_Zend.dashboard.html" role="test" />
+   <file md5sum="c9f35d79fe1bd80f4c76fe922029ece7" name="tests/reports/coverage/src_Zend.html" role="test" />
+   <file md5sum="c0516ebe0f4215c501c4df112665c55a" name="tests/reports/coverage/src_Zend_Dom.dashboard.html" role="test" />
+   <file md5sum="6a14eaa7e07265e5f7a32bf51868d5ab" name="tests/reports/coverage/src_Zend_Dom.html" role="test" />
+   <file md5sum="177e7ac1a413c4e5664d266a8f5ebb5a" name="tests/reports/coverage/src_Zend_Dom_Css2Xpath.php.html" role="test" />
+   <file md5sum="6a6dbd653f89da6a340a761f65d754c9" name="tests/reports/coverage/src_Zend_Dom_NodeList.php.html" role="test" />
+   <file md5sum="b3afd259f54021a8a542fce84af6a2a8" name="tests/reports/coverage/src_Zend_Dom_Query.php.html" role="test" />
+   <file md5sum="6720298ca22a5214a2e9f8fdb279fbd3" name="tests/reports/coverage/style.css" role="test" />
+   <file md5sum="c8415dfce2ea3a1720004db73318f406" name="tests/reports/coverage/tests.dashboard.html" role="test" />
+   <file md5sum="368f44430d930e08b27e7e8327fd2cef" name="tests/reports/coverage/tests.html" role="test" />
+   <file md5sum="d8162a50b3b3ca08bc73704e41447c3d" name="tests/reports/coverage/tests_bootstrap.php.html" role="test" />
+   <file md5sum="366eac96e298168d2c923fcb556fa259" name="tests/reports/coverage/yahoo-dom-event.js" role="test" />
+   <file md5sum="f0cc9dbcd4ef6f05794bb6f625c16b7d" name="library/Respect/Template/Adapter.php" role="php" />
+   <file md5sum="44182323f3be20f62f59cbd9d7e912c0" name="library/Respect/Template/Adapters/A.php" role="php" />
+   <file md5sum="4cf54e4743d08bc147afd10ce344cdeb" name="library/Respect/Template/Adapters/AbstractAdapter.php" role="php" />
+   <file md5sum="5e1fa5ff0e9e1d14ba022dc7e9fb90af" name="library/Respect/Template/Adapters/Dom.php" role="php" />
+   <file md5sum="119cf17f9a7a4d71141cf363ac6a1668" name="library/Respect/Template/Adapters/HtmlElement.php" role="php" />
+   <file md5sum="207bd9ad8a593d8a54edf5b9c2931dee" name="library/Respect/Template/Adapters/String.php" role="php" />
+   <file md5sum="411652fc20b3420a2b0747afabf7e5ba" name="library/Respect/Template/Adapters/Traversable.php" role="php" />
+   <file md5sum="0a0917ee895676d13aa406fcaf3a040f" name="library/Respect/Template/Decorators/AbstractDecorator.php" role="php" />
+   <file md5sum="88bf7a1e37eeffffe0048d89950f15c0" name="library/Respect/Template/Decorators/Append.php" role="php" />
+   <file md5sum="58138d33c38b5d2cf74b9facf6b8a509" name="library/Respect/Template/Decorators/Clean.php" role="php" />
+   <file md5sum="2eec10db7d3a91bd0f5f504b193dc10a" name="library/Respect/Template/Decorators/CleanAppend.php" role="php" />
+   <file md5sum="7e22a181bd7efe041c1afd7ee2eadd1f" name="library/Respect/Template/Decorators/Replace.php" role="php" />
+   <file md5sum="cbee5f6e73cd19ef273620de7011339e" name="library/Respect/Template/Document.php" role="php" />
+   <file md5sum="0d0db14527f3b129ed8a0850de3abf19" name="library/Respect/Template/Html.php" role="php" />
+   <file md5sum="12c094735a5a6115436d140b8c40ed4f" name="library/Respect/Template/HtmlElement.php" role="php" />
+   <file md5sum="ec30429eacb4af4693116d4a112b087a" name="library/Respect/Template/Query.php" role="php" />
+   <file md5sum="ee52792c9f840d9b33d47a152bdccf0a" name="library/Zend/Dom/Css2Xpath.php" role="php" />
+   <file md5sum="cc6a011c4c87244710a818cf9440f474" name="library/Zend/Dom/Exception/RuntimeException.php" role="php" />
+   <file md5sum="c69410479fb22fb2e546be5e6eef44c7" name="library/Zend/Dom/Exception.php" role="php" />
+   <file md5sum="361895ffe76707ffb17a8c16ee36a10f" name="library/Zend/Dom/NodeList.php" role="php" />
+   <file md5sum="58117ab5814e8a87ee7019b23851ac99" name="library/Zend/Dom/Query.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="001.css" name="examples/001.css" />
+   <install as="cssZenGarden.html" name="examples/cssZenGarden.html" />
+   <install as="simple.php" name="examples/simple.php" />
+   <install as="bootstrap.php" name="tests/bootstrap.php" />
+   <install as="library/Respect/Template/Adapters/ATest.php" name="tests/library/Respect/Template/Adapters/ATest.php" />
+   <install as="library/Respect/Template/Adapters/HtmlElementTest.php" name="tests/library/Respect/Template/Adapters/HtmlElementTest.php" />
+   <install as="library/Respect/Template/Adapters/StringTest.php" name="tests/library/Respect/Template/Adapters/StringTest.php" />
+   <install as="library/Respect/Template/Adapters/TraversableTest.php" name="tests/library/Respect/Template/Adapters/TraversableTest.php" />
+   <install as="library/Respect/Template/AdapterTest.php" name="tests/library/Respect/Template/AdapterTest.php" />
+   <install as="library/Respect/Template/Decorators/AppendTest.php" name="tests/library/Respect/Template/Decorators/AppendTest.php" />
+   <install as="library/Respect/Template/Decorators/CleanAppendTest.php" name="tests/library/Respect/Template/Decorators/CleanAppendTest.php" />
+   <install as="library/Respect/Template/Decorators/CleanTest.php" name="tests/library/Respect/Template/Decorators/CleanTest.php" />
+   <install as="library/Respect/Template/Decorators/ReplaceTest.php" name="tests/library/Respect/Template/Decorators/ReplaceTest.php" />
+   <install as="library/Respect/Template/HtmlElementTest.php" name="tests/library/Respect/Template/HtmlElementTest.php" />
+   <install as="library/Respect/Template/HtmlTest.php" name="tests/library/Respect/Template/HtmlTest.php" />
+   <install as="phpunit.xml" name="tests/phpunit.xml" />
+   <install as="reports/coverage/close12_1.gif" name="tests/reports/coverage/close12_1.gif" />
+   <install as="reports/coverage/container-min.js" name="tests/reports/coverage/container-min.js" />
+   <install as="reports/coverage/container.css" name="tests/reports/coverage/container.css" />
+   <install as="reports/coverage/directory.png" name="tests/reports/coverage/directory.png" />
+   <install as="reports/coverage/file.png" name="tests/reports/coverage/file.png" />
+   <install as="reports/coverage/glass.png" name="tests/reports/coverage/glass.png" />
+   <install as="reports/coverage/highcharts.js" name="tests/reports/coverage/highcharts.js" />
+   <install as="reports/coverage/index.dashboard.html" name="tests/reports/coverage/index.dashboard.html" />
+   <install as="reports/coverage/index.html" name="tests/reports/coverage/index.html" />
+   <install as="reports/coverage/jquery.min.js" name="tests/reports/coverage/jquery.min.js" />
+   <install as="reports/coverage/src.dashboard.html" name="tests/reports/coverage/src.dashboard.html" />
+   <install as="reports/coverage/src.html" name="tests/reports/coverage/src.html" />
+   <install as="reports/coverage/src_Respect.dashboard.html" name="tests/reports/coverage/src_Respect.dashboard.html" />
+   <install as="reports/coverage/src_Respect.html" name="tests/reports/coverage/src_Respect.html" />
+   <install as="reports/coverage/src_Respect_Template.dashboard.html" name="tests/reports/coverage/src_Respect_Template.dashboard.html" />
+   <install as="reports/coverage/src_Respect_Template.html" name="tests/reports/coverage/src_Respect_Template.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapter.php.html" name="tests/reports/coverage/src_Respect_Template_Adapter.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters.dashboard.html" name="tests/reports/coverage/src_Respect_Template_Adapters.dashboard.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters.html" name="tests/reports/coverage/src_Respect_Template_Adapters.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_A.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_A.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_AbstractAdapter.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_AbstractAdapter.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_Dom.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_Dom.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_HtmlElement.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_HtmlElement.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_String.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_String.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Adapters_Traversable.php.html" name="tests/reports/coverage/src_Respect_Template_Adapters_Traversable.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators.dashboard.html" name="tests/reports/coverage/src_Respect_Template_Decorators.dashboard.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators.html" name="tests/reports/coverage/src_Respect_Template_Decorators.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators_AbstractDecorator.php.html" name="tests/reports/coverage/src_Respect_Template_Decorators_AbstractDecorator.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators_Append.php.html" name="tests/reports/coverage/src_Respect_Template_Decorators_Append.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators_Clean.php.html" name="tests/reports/coverage/src_Respect_Template_Decorators_Clean.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators_CleanAppend.php.html" name="tests/reports/coverage/src_Respect_Template_Decorators_CleanAppend.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Decorators_Replace.php.html" name="tests/reports/coverage/src_Respect_Template_Decorators_Replace.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Document.php.html" name="tests/reports/coverage/src_Respect_Template_Document.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Html.php.html" name="tests/reports/coverage/src_Respect_Template_Html.php.html" />
+   <install as="reports/coverage/src_Respect_Template_HtmlElement.php.html" name="tests/reports/coverage/src_Respect_Template_HtmlElement.php.html" />
+   <install as="reports/coverage/src_Respect_Template_Query.php.html" name="tests/reports/coverage/src_Respect_Template_Query.php.html" />
+   <install as="reports/coverage/src_Zend.dashboard.html" name="tests/reports/coverage/src_Zend.dashboard.html" />
+   <install as="reports/coverage/src_Zend.html" name="tests/reports/coverage/src_Zend.html" />
+   <install as="reports/coverage/src_Zend_Dom.dashboard.html" name="tests/reports/coverage/src_Zend_Dom.dashboard.html" />
+   <install as="reports/coverage/src_Zend_Dom.html" name="tests/reports/coverage/src_Zend_Dom.html" />
+   <install as="reports/coverage/src_Zend_Dom_Css2Xpath.php.html" name="tests/reports/coverage/src_Zend_Dom_Css2Xpath.php.html" />
+   <install as="reports/coverage/src_Zend_Dom_NodeList.php.html" name="tests/reports/coverage/src_Zend_Dom_NodeList.php.html" />
+   <install as="reports/coverage/src_Zend_Dom_Query.php.html" name="tests/reports/coverage/src_Zend_Dom_Query.php.html" />
+   <install as="reports/coverage/style.css" name="tests/reports/coverage/style.css" />
+   <install as="reports/coverage/tests.dashboard.html" name="tests/reports/coverage/tests.dashboard.html" />
+   <install as="reports/coverage/tests.html" name="tests/reports/coverage/tests.html" />
+   <install as="reports/coverage/tests_bootstrap.php.html" name="tests/reports/coverage/tests_bootstrap.php.html" />
+   <install as="reports/coverage/yahoo-dom-event.js" name="tests/reports/coverage/yahoo-dom-event.js" />
+   <install as="Respect/Template/Adapter.php" name="library/Respect/Template/Adapter.php" />
+   <install as="Respect/Template/Adapters/A.php" name="library/Respect/Template/Adapters/A.php" />
+   <install as="Respect/Template/Adapters/AbstractAdapter.php" name="library/Respect/Template/Adapters/AbstractAdapter.php" />
+   <install as="Respect/Template/Adapters/Dom.php" name="library/Respect/Template/Adapters/Dom.php" />
+   <install as="Respect/Template/Adapters/HtmlElement.php" name="library/Respect/Template/Adapters/HtmlElement.php" />
+   <install as="Respect/Template/Adapters/String.php" name="library/Respect/Template/Adapters/String.php" />
+   <install as="Respect/Template/Adapters/Traversable.php" name="library/Respect/Template/Adapters/Traversable.php" />
+   <install as="Respect/Template/Decorators/AbstractDecorator.php" name="library/Respect/Template/Decorators/AbstractDecorator.php" />
+   <install as="Respect/Template/Decorators/Append.php" name="library/Respect/Template/Decorators/Append.php" />
+   <install as="Respect/Template/Decorators/Clean.php" name="library/Respect/Template/Decorators/Clean.php" />
+   <install as="Respect/Template/Decorators/CleanAppend.php" name="library/Respect/Template/Decorators/CleanAppend.php" />
+   <install as="Respect/Template/Decorators/Replace.php" name="library/Respect/Template/Decorators/Replace.php" />
+   <install as="Respect/Template/Document.php" name="library/Respect/Template/Document.php" />
+   <install as="Respect/Template/Html.php" name="library/Respect/Template/Html.php" />
+   <install as="Respect/Template/HtmlElement.php" name="library/Respect/Template/HtmlElement.php" />
+   <install as="Respect/Template/Query.php" name="library/Respect/Template/Query.php" />
+   <install as="Zend/Dom/Css2Xpath.php" name="library/Zend/Dom/Css2Xpath.php" />
+   <install as="Zend/Dom/Exception/RuntimeException.php" name="library/Zend/Dom/Exception/RuntimeException.php" />
+   <install as="Zend/Dom/Exception.php" name="library/Zend/Dom/Exception.php" />
+   <install as="Zend/Dom/NodeList.php" name="library/Zend/Dom/NodeList.php" />
+   <install as="Zend/Dom/Query.php" name="library/Zend/Dom/Query.php" />
+  </filelist>
+ </phprelease>
+</package>
