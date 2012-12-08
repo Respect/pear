@@ -9,7 +9,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Config-0.4.1.tgz"
                 },
                 "version": "0.4.1",
-                "time": "2012-03-29T03:35:14+02:00",
+                "time": "2012-03-29T03:35:14-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -34,7 +34,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Config-0.4.0.tgz"
                 },
                 "version": "0.4.0",
-                "time": "2012-03-27T21:51:14+02:00",
+                "time": "2012-03-27T21:51:14-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -59,7 +59,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Config-0.3.0.tgz"
                 },
                 "version": "0.3.0",
-                "time": "2011-11-29T20:26:43+01:00",
+                "time": "2011-11-29T20:26:43-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -84,7 +84,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Config-0.2.2.tgz"
                 },
                 "version": "0.2.2",
-                "time": "2011-11-25T20:35:24+01:00",
+                "time": "2011-11-25T20:35:24-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -122,7 +122,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Conversion-0.1.0.tgz"
                 },
                 "version": "0.1.0",
-                "time": "2012-08-31T20:03:17+02:00",
+                "time": "2012-08-31T20:03:17-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -160,7 +160,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Data-0.1.5.tgz"
                 },
                 "version": "0.1.5",
-                "time": "2011-12-23T19:55:21+01:00",
+                "time": "2011-12-23T19:55:21-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -185,7 +185,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Data-0.1.4.tgz"
                 },
                 "version": "0.1.4",
-                "time": "2011-12-23T19:48:15+01:00",
+                "time": "2011-12-23T19:48:15-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -210,7 +210,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Data-0.1.3.tgz"
                 },
                 "version": "0.1.3",
-                "time": "2011-11-26T17:46:30+01:00",
+                "time": "2011-11-26T17:46:30-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -235,7 +235,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Data-0.1.1.tgz"
                 },
                 "version": "0.1.1",
-                "time": "2011-11-26T16:46:15+01:00",
+                "time": "2011-11-26T16:46:15-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -273,7 +273,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Doc-0.1.0.tgz"
                 },
                 "version": "0.1.0",
-                "time": "2012-03-25T03:27:27+02:00",
+                "time": "2012-03-25T03:27:27-03:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-phpunit\/PHPUnit": "*"
@@ -304,6 +304,32 @@
     },
     "pear-Respect\/Foundation": {
         "versions": {
+            "0.1.12": {
+                "name": "pear-Respect\/Foundation",
+                "description": "A conventional project tool for PHP and git.",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.12.tgz"
+                },
+                "version": "0.1.12",
+                "time": "2012-12-08T06:18:58-02:00",
+                "require": {
+                    "php": ">=5.3",
+                    "ext-reflection": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Ivo Nascimento",
+                        "email": "iannsp@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "src\/Respect\/Foundation"
+                    ]
+                }
+            },
             "0.1.11": {
                 "name": "pear-Respect\/Foundation",
                 "description": "A conventional project tool for PHP and git.",
@@ -312,7 +338,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.11.tgz"
                 },
                 "version": "0.1.11",
-                "time": "2012-04-10T04:11:30+02:00",
+                "time": "2012-04-10T04:11:30-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -338,7 +364,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.10.tgz"
                 },
                 "version": "0.1.10",
-                "time": "2012-04-08T01:57:21+02:00",
+                "time": "2012-04-08T01:57:21-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -364,7 +390,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.9.tgz"
                 },
                 "version": "0.1.9",
-                "time": "2012-04-08T01:49:32+02:00",
+                "time": "2012-04-08T01:49:32-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -390,7 +416,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.6.tgz"
                 },
                 "version": "0.1.6",
-                "time": "2012-04-08T01:38:58+02:00",
+                "time": "2012-04-08T01:38:58-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -416,7 +442,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.5.tgz"
                 },
                 "version": "0.1.5",
-                "time": "2012-04-08T01:35:58+02:00",
+                "time": "2012-04-08T01:35:58-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -442,7 +468,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.4.tgz"
                 },
                 "version": "0.1.4",
-                "time": "2012-04-08T01:30:50+02:00",
+                "time": "2012-04-08T01:30:50-03:00",
                 "require": {
                     "php": ">=5.3",
                     "ext-reflection": "*"
@@ -468,7 +494,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.3.tgz"
                 },
                 "version": "0.1.3",
-                "time": "2012-04-07T22:16:57+02:00",
+                "time": "2012-04-07T22:16:57-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -493,7 +519,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.2.tgz"
                 },
                 "version": "0.1.2",
-                "time": "2012-04-07T21:48:03+02:00",
+                "time": "2012-04-07T21:48:03-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -518,7 +544,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.1.tgz"
                 },
                 "version": "0.1.1",
-                "time": "2012-04-07T21:45:13+02:00",
+                "time": "2012-04-07T21:45:13-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -543,7 +569,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Foundation-0.1.0.tgz"
                 },
                 "version": "0.1.0",
-                "time": "2012-04-07T21:39:25+02:00",
+                "time": "2012-04-07T21:39:25-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -581,7 +607,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Loader-0.2.0.tgz"
                 },
                 "version": "0.2.0",
-                "time": "2011-11-29T20:45:38+01:00",
+                "time": "2011-11-29T20:45:38-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -606,7 +632,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Loader-0.1.2.tgz"
                 },
                 "version": "0.1.2",
-                "time": "2011-11-25T20:41:56+01:00",
+                "time": "2011-11-25T20:41:56-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -644,7 +670,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.4.tgz"
                 },
                 "version": "0.4.4",
-                "time": "2012-05-05T22:12:06+02:00",
+                "time": "2012-05-05T22:12:06-03:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -675,7 +701,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.3.tgz"
                 },
                 "version": "0.4.3",
-                "time": "2012-04-14T01:25:07+02:00",
+                "time": "2012-04-14T01:25:07-03:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -706,7 +732,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.2.tgz"
                 },
                 "version": "0.4.2",
-                "time": "2012-04-11T05:06:34+02:00",
+                "time": "2012-04-11T05:06:34-03:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -737,7 +763,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.1.tgz"
                 },
                 "version": "0.4.1",
-                "time": "2012-04-11T04:58:14+02:00",
+                "time": "2012-04-11T04:58:14-03:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -768,7 +794,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.0.tgz"
                 },
                 "version": "0.4.0",
-                "time": "2011-11-29T19:48:03+01:00",
+                "time": "2011-11-29T19:48:03-02:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -799,7 +825,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.3.1.tgz"
                 },
                 "version": "0.3.1",
-                "time": "2011-11-26T19:00:34+01:00",
+                "time": "2011-11-26T19:00:34-02:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-Respect\/Data": "*"
@@ -830,7 +856,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.3.0.tgz"
                 },
                 "version": "0.3.0",
-                "time": "2011-11-26T17:57:07+01:00",
+                "time": "2011-11-26T17:57:07-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -860,7 +886,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Relational-0.2.2.tgz"
                 },
                 "version": "0.2.2",
-                "time": "2011-11-24T21:32:23+01:00",
+                "time": "2011-11-24T21:32:23-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -903,7 +929,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.8.tgz"
                 },
                 "version": "0.4.8",
-                "time": "2012-06-17T18:14:07+02:00",
+                "time": "2012-06-17T18:14:07-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -933,7 +959,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.7.tgz"
                 },
                 "version": "0.4.7",
-                "time": "2012-06-17T17:59:34+02:00",
+                "time": "2012-06-17T17:59:34-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -963,7 +989,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.6.tgz"
                 },
                 "version": "0.4.6",
-                "time": "2012-05-17T17:43:44+02:00",
+                "time": "2012-05-17T17:43:44-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -993,7 +1019,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.5.tgz"
                 },
                 "version": "0.4.5",
-                "time": "2012-05-17T03:36:37+02:00",
+                "time": "2012-05-17T03:36:37-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1023,7 +1049,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.1.tgz"
                 },
                 "version": "0.4.1",
-                "time": "2012-04-19T00:49:54+02:00",
+                "time": "2012-04-19T00:49:54-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1053,7 +1079,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.4.0.tgz"
                 },
                 "version": "0.4.0",
-                "time": "2012-04-17T00:06:54+02:00",
+                "time": "2012-04-17T00:06:54-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1083,7 +1109,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.3.1.tgz"
                 },
                 "version": "0.3.1",
-                "time": "2011-11-29T19:05:00+01:00",
+                "time": "2011-11-29T19:05:00-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1113,7 +1139,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.3.0.tgz"
                 },
                 "version": "0.3.0",
-                "time": "2011-11-29T19:00:07+01:00",
+                "time": "2011-11-29T19:00:07-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1143,7 +1169,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Rest-0.2.0.tgz"
                 },
                 "version": "0.2.0",
-                "time": "2011-11-25T20:28:34+01:00",
+                "time": "2011-11-25T20:28:34-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1186,7 +1212,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Template-0.1.5.tgz"
                 },
                 "version": "0.1.5",
-                "time": "2012-09-03T03:26:54+02:00",
+                "time": "2012-09-03T03:26:54-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1217,7 +1243,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Template-0.1.3.tgz"
                 },
                 "version": "0.1.3",
-                "time": "2011-12-14T18:49:08+01:00",
+                "time": "2011-12-14T18:49:08-02:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-zf2\/Zend_Dom": "*"
@@ -1261,7 +1287,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.4.4.tgz"
                 },
                 "version": "0.4.4",
-                "time": "2012-04-25T02:52:46+02:00",
+                "time": "2012-04-25T02:52:46-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1291,7 +1317,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.4.3.tgz"
                 },
                 "version": "0.4.3",
-                "time": "2012-04-10T04:16:25+02:00",
+                "time": "2012-04-10T04:16:25-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1321,7 +1347,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.4.2.tgz"
                 },
                 "version": "0.4.2",
-                "time": "2012-04-10T02:42:57+02:00",
+                "time": "2012-04-10T02:42:57-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1351,7 +1377,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.4.1.tgz"
                 },
                 "version": "0.4.1",
-                "time": "2012-04-09T01:27:42+02:00",
+                "time": "2012-04-09T01:27:42-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1381,7 +1407,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.4.0.tgz"
                 },
                 "version": "0.4.0",
-                "time": "2012-04-08T22:55:17+02:00",
+                "time": "2012-04-08T22:55:17-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1411,7 +1437,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.3.9.tgz"
                 },
                 "version": "0.3.9",
-                "time": "2012-04-08T02:06:22+02:00",
+                "time": "2012-04-08T02:06:22-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1441,7 +1467,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.3.8.tgz"
                 },
                 "version": "0.3.8",
-                "time": "2012-03-27T02:55:26+02:00",
+                "time": "2012-03-27T02:55:26-03:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1477,7 +1503,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.3.4.tgz"
                 },
                 "version": "0.3.4",
-                "time": "2011-11-26T18:58:47+01:00",
+                "time": "2011-11-26T18:58:47-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
@@ -1513,7 +1539,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.3.3.tgz"
                 },
                 "version": "0.3.3",
-                "time": "2011-11-25T20:56:18+01:00",
+                "time": "2011-11-25T20:56:18-02:00",
                 "require": {
                     "php": ">=5.3",
                     "pear-symfony2\/Validator": "*",
@@ -1547,7 +1573,7 @@
                     "url": "http:\/\/respect.li\/pear\/get\/Validation-0.3.2.tgz"
                 },
                 "version": "0.3.2",
-                "time": "2011-11-24T21:39:34+01:00",
+                "time": "2011-11-24T21:39:34-02:00",
                 "require": {
                     "php": ">=5.3"
                 },
