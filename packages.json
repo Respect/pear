@@ -687,6 +687,37 @@
     },
     "pear-Respect\/Relational": {
         "versions": {
+            "0.4.7": {
+                "name": "pear-Respect\/Relational",
+                "description": "Fluent Database Toolkit",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/respect.li\/pear\/get\/Relational-0.4.7.tgz"
+                },
+                "version": "0.4.7",
+                "time": "2012-12-17T01:55:26+00:00",
+                "require": {
+                    "php": ">=5.3",
+                    "pear-Respect\/Data": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Alexandre Gomes Gaigalas",
+                        "email": "alexandre@gaigalas.net",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Thiago Rigo",
+                        "email": "thiagophx@gmail.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "library\/Respect\/Relational"
+                    ]
+                }
+            },
             "0.4.4": {
                 "name": "pear-Respect\/Relational",
                 "description": "Fluent Database Toolkit",
